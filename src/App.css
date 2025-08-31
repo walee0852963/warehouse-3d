@@ -1,0 +1,96 @@
+body {
+  margin: 0;
+  font-family: "Cairo", sans-serif;
+  background: linear-gradient(135deg, #f3f4f6, #e0e7ff);
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+}
+
+.warehouse {
+  flex: 2;
+  background: #f9fafb;
+  border-right: 2px solid #ddd;
+}
+
+.controls {
+  flex: 1;
+  padding: 30px;
+  background: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  box-shadow: -2px 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.controls h2 {
+  margin-bottom: 20px;
+  color: #374151;
+}
+
+.controls p {
+  font-size: 18px;
+  margin: 10px 0;
+  color: #555;
+}
+
+.controls button {
+  margin-top: 15px;
+  padding: 12px 20px;
+  border: none;
+  background: #4f46e5;
+  color: #fff;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+.controls button:hover {
+  background: #4338ca;
+}
+
+
+
+.App {
+  text-align: center;
+}
+
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
